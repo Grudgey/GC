@@ -7,7 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8CE723382490DF1600719EFB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723372490DF1600719EFB /* main.cpp */; };
+		8CE723742490E02900719EFB /* Render.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7233E2490E02500719EFB /* Render.cpp */; };
+		8CE723752490E02900719EFB /* MainLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723452490E02500719EFB /* MainLoop.cpp */; };
+		8CE723762490E02900719EFB /* ArcBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723472490E02500719EFB /* ArcBall.cpp */; };
+		8CE723772490E02900719EFB /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723492490E02600719EFB /* Particle.cpp */; };
+		8CE723782490E02900719EFB /* Point.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7234A2490E02600719EFB /* Point.cpp */; };
+		8CE723792490E02900719EFB /* Starsystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7234B2490E02600719EFB /* Starsystem.cpp */; };
+		8CE7237A2490E02900719EFB /* Model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7234F2490E02600719EFB /* Model.cpp */; };
+		8CE7237B2490E02900719EFB /* Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723522490E02600719EFB /* Matrix.cpp */; };
+		8CE7237C2490E02900719EFB /* Team.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723572490E02700719EFB /* Team.cpp */; };
+		8CE7237D2490E02900719EFB /* Quaternion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723642490E02800719EFB /* Quaternion.cpp */; };
+		8CE7237E2490E02900719EFB /* AI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723652490E02800719EFB /* AI.cpp */; };
+		8CE7237F2490E02900719EFB /* HUD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE723692490E02800719EFB /* HUD.cpp */; };
+		8CE723802490E02900719EFB /* Vector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7236A2490E02900719EFB /* Vector.cpp */; };
+		8CE723812490E02900719EFB /* Ship.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7236C2490E02900719EFB /* Ship.cpp */; };
+		8CE723822490E02900719EFB /* MilkshapeModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7236F2490E02900719EFB /* MilkshapeModel.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +38,58 @@
 
 /* Begin PBXFileReference section */
 		8CE723342490DF1600719EFB /* GC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GC; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CE723372490DF1600719EFB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8CE7233E2490E02500719EFB /* Render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Render.cpp; path = Galactic_Conquest/Render.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723402490E02500719EFB /* starsystem2.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem2.ms3d; path = Galactic_Conquest/starsystem2.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723412490E02500719EFB /* starsystem2_green.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem2_green.ms3d; path = Galactic_Conquest/starsystem2_green.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723422490E02500719EFB /* ship.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = ship.ms3d; path = Galactic_Conquest/ship.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723432490E02500719EFB /* starsystem2_blue.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem2_blue.ms3d; path = Galactic_Conquest/starsystem2_blue.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723442490E02500719EFB /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = Galactic_Conquest/Model.h; sourceTree = SOURCE_ROOT; };
+		8CE723452490E02500719EFB /* MainLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MainLoop.cpp; path = Galactic_Conquest/MainLoop.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723462490E02500719EFB /* HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HUD.h; path = Galactic_Conquest/HUD.h; sourceTree = SOURCE_ROOT; };
+		8CE723472490E02500719EFB /* ArcBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ArcBall.cpp; path = Galactic_Conquest/ArcBall.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723482490E02500719EFB /* MilkshapeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MilkshapeModel.h; path = Galactic_Conquest/MilkshapeModel.h; sourceTree = SOURCE_ROOT; };
+		8CE723492490E02600719EFB /* Particle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Particle.cpp; path = Galactic_Conquest/Particle.cpp; sourceTree = SOURCE_ROOT; };
+		8CE7234A2490E02600719EFB /* Point.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Point.cpp; path = Galactic_Conquest/Point.cpp; sourceTree = SOURCE_ROOT; };
+		8CE7234B2490E02600719EFB /* Starsystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Starsystem.cpp; path = Galactic_Conquest/Starsystem.cpp; sourceTree = SOURCE_ROOT; };
+		8CE7234C2490E02600719EFB /* starsystem3_blue.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem3_blue.ms3d; path = Galactic_Conquest/starsystem3_blue.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE7234D2490E02600719EFB /* Team.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Team.h; path = Galactic_Conquest/Team.h; sourceTree = SOURCE_ROOT; };
+		8CE7234E2490E02600719EFB /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Matrix.h; path = Galactic_Conquest/Matrix.h; sourceTree = SOURCE_ROOT; };
+		8CE7234F2490E02600719EFB /* Model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Model.cpp; path = Galactic_Conquest/Model.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723502490E02600719EFB /* pluto.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = pluto.bmp; path = Galactic_Conquest/pluto.bmp; sourceTree = SOURCE_ROOT; };
+		8CE723512490E02600719EFB /* GameVariables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameVariables.h; path = Galactic_Conquest/GameVariables.h; sourceTree = SOURCE_ROOT; };
+		8CE723522490E02600719EFB /* Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Matrix.cpp; path = Galactic_Conquest/Matrix.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723532490E02600719EFB /* earth.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = earth.gif; path = Galactic_Conquest/earth.gif; sourceTree = SOURCE_ROOT; };
+		8CE723542490E02600719EFB /* AI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AI.h; path = Galactic_Conquest/AI.h; sourceTree = SOURCE_ROOT; };
+		8CE723552490E02600719EFB /* cour.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = cour.ttf; path = Galactic_Conquest/cour.ttf; sourceTree = SOURCE_ROOT; };
+		8CE723562490E02600719EFB /* ArcBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArcBall.h; path = Galactic_Conquest/ArcBall.h; sourceTree = SOURCE_ROOT; };
+		8CE723572490E02700719EFB /* Team.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Team.cpp; path = Galactic_Conquest/Team.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723582490E02700719EFB /* Vector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector.h; path = Galactic_Conquest/Vector.h; sourceTree = SOURCE_ROOT; };
+		8CE723592490E02700719EFB /* earth.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = earth.bmp; path = Galactic_Conquest/earth.bmp; sourceTree = SOURCE_ROOT; };
+		8CE7235A2490E02700719EFB /* shiphull.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = shiphull.bmp; path = Galactic_Conquest/shiphull.bmp; sourceTree = SOURCE_ROOT; };
+		8CE7235B2490E02700719EFB /* mercury.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = mercury.bmp; path = Galactic_Conquest/mercury.bmp; sourceTree = SOURCE_ROOT; };
+		8CE7235C2490E02700719EFB /* ship1.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = ship1.ms3d; path = Galactic_Conquest/ship1.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE7235D2490E02700719EFB /* starsystem1_blue.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem1_blue.ms3d; path = Galactic_Conquest/starsystem1_blue.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE7235E2490E02700719EFB /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Ship.h; path = Galactic_Conquest/Ship.h; sourceTree = SOURCE_ROOT; };
+		8CE7235F2490E02700719EFB /* starsystem1.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem1.ms3d; path = Galactic_Conquest/starsystem1.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723602490E02700719EFB /* mars.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = mars.bmp; path = Galactic_Conquest/mars.bmp; sourceTree = SOURCE_ROOT; };
+		8CE723612490E02800719EFB /* MainLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainLoop.h; path = Galactic_Conquest/MainLoop.h; sourceTree = SOURCE_ROOT; };
+		8CE723622490E02800719EFB /* Point.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Point.h; path = Galactic_Conquest/Point.h; sourceTree = SOURCE_ROOT; };
+		8CE723642490E02800719EFB /* Quaternion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Quaternion.cpp; path = Galactic_Conquest/Quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723652490E02800719EFB /* AI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AI.cpp; path = Galactic_Conquest/AI.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723662490E02800719EFB /* Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Render.h; path = Galactic_Conquest/Render.h; sourceTree = SOURCE_ROOT; };
+		8CE723672490E02800719EFB /* starsystem3.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem3.ms3d; path = Galactic_Conquest/starsystem3.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723682490E02800719EFB /* starsystem1_green.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem1_green.ms3d; path = Galactic_Conquest/starsystem1_green.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE723692490E02800719EFB /* HUD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HUD.cpp; path = Galactic_Conquest/HUD.cpp; sourceTree = SOURCE_ROOT; };
+		8CE7236A2490E02900719EFB /* Vector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector.cpp; path = Galactic_Conquest/Vector.cpp; sourceTree = SOURCE_ROOT; };
+		8CE7236B2490E02900719EFB /* starsystem3_green.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = starsystem3_green.ms3d; path = Galactic_Conquest/starsystem3_green.ms3d; sourceTree = SOURCE_ROOT; };
+		8CE7236C2490E02900719EFB /* Ship.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Ship.cpp; path = Galactic_Conquest/Ship.cpp; sourceTree = SOURCE_ROOT; };
+		8CE7236D2490E02900719EFB /* venus.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = venus.bmp; path = Galactic_Conquest/venus.bmp; sourceTree = SOURCE_ROOT; };
+		8CE7236E2490E02900719EFB /* Quaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Quaternion.h; path = Galactic_Conquest/Quaternion.h; sourceTree = SOURCE_ROOT; };
+		8CE7236F2490E02900719EFB /* MilkshapeModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MilkshapeModel.cpp; path = Galactic_Conquest/MilkshapeModel.cpp; sourceTree = SOURCE_ROOT; };
+		8CE723702490E02900719EFB /* Starsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Starsystem.h; path = Galactic_Conquest/Starsystem.h; sourceTree = SOURCE_ROOT; };
+		8CE723712490E02900719EFB /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Particle.h; path = Galactic_Conquest/Particle.h; sourceTree = SOURCE_ROOT; };
+		8CE723722490E02900719EFB /* sun.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; name = sun.bmp; path = Galactic_Conquest/sun.bmp; sourceTree = SOURCE_ROOT; };
+		8CE723732490E02900719EFB /* ship2.ms3d */ = {isa = PBXFileReference; lastKnownFileType = file; name = ship2.ms3d; path = Galactic_Conquest/ship2.ms3d; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +122,58 @@
 		8CE723362490DF1600719EFB /* GC */ = {
 			isa = PBXGroup;
 			children = (
-				8CE723372490DF1600719EFB /* main.cpp */,
+				8CE723652490E02800719EFB /* AI.cpp */,
+				8CE723542490E02600719EFB /* AI.h */,
+				8CE723472490E02500719EFB /* ArcBall.cpp */,
+				8CE723562490E02600719EFB /* ArcBall.h */,
+				8CE723552490E02600719EFB /* cour.ttf */,
+				8CE723592490E02700719EFB /* earth.bmp */,
+				8CE723532490E02600719EFB /* earth.gif */,
+				8CE723512490E02600719EFB /* GameVariables.h */,
+				8CE723692490E02800719EFB /* HUD.cpp */,
+				8CE723462490E02500719EFB /* HUD.h */,
+				8CE723452490E02500719EFB /* MainLoop.cpp */,
+				8CE723612490E02800719EFB /* MainLoop.h */,
+				8CE723602490E02700719EFB /* mars.bmp */,
+				8CE723522490E02600719EFB /* Matrix.cpp */,
+				8CE7234E2490E02600719EFB /* Matrix.h */,
+				8CE7235B2490E02700719EFB /* mercury.bmp */,
+				8CE7236F2490E02900719EFB /* MilkshapeModel.cpp */,
+				8CE723482490E02500719EFB /* MilkshapeModel.h */,
+				8CE7234F2490E02600719EFB /* Model.cpp */,
+				8CE723442490E02500719EFB /* Model.h */,
+				8CE723492490E02600719EFB /* Particle.cpp */,
+				8CE723712490E02900719EFB /* Particle.h */,
+				8CE723502490E02600719EFB /* pluto.bmp */,
+				8CE7234A2490E02600719EFB /* Point.cpp */,
+				8CE723622490E02800719EFB /* Point.h */,
+				8CE723642490E02800719EFB /* Quaternion.cpp */,
+				8CE7236E2490E02900719EFB /* Quaternion.h */,
+				8CE7233E2490E02500719EFB /* Render.cpp */,
+				8CE723662490E02800719EFB /* Render.h */,
+				8CE7236C2490E02900719EFB /* Ship.cpp */,
+				8CE7235E2490E02700719EFB /* Ship.h */,
+				8CE723422490E02500719EFB /* ship.ms3d */,
+				8CE7235C2490E02700719EFB /* ship1.ms3d */,
+				8CE723732490E02900719EFB /* ship2.ms3d */,
+				8CE7235A2490E02700719EFB /* shiphull.bmp */,
+				8CE7234B2490E02600719EFB /* Starsystem.cpp */,
+				8CE723702490E02900719EFB /* Starsystem.h */,
+				8CE7235D2490E02700719EFB /* starsystem1_blue.ms3d */,
+				8CE723682490E02800719EFB /* starsystem1_green.ms3d */,
+				8CE7235F2490E02700719EFB /* starsystem1.ms3d */,
+				8CE723432490E02500719EFB /* starsystem2_blue.ms3d */,
+				8CE723412490E02500719EFB /* starsystem2_green.ms3d */,
+				8CE723402490E02500719EFB /* starsystem2.ms3d */,
+				8CE7234C2490E02600719EFB /* starsystem3_blue.ms3d */,
+				8CE7236B2490E02900719EFB /* starsystem3_green.ms3d */,
+				8CE723672490E02800719EFB /* starsystem3.ms3d */,
+				8CE723722490E02900719EFB /* sun.bmp */,
+				8CE723572490E02700719EFB /* Team.cpp */,
+				8CE7234D2490E02600719EFB /* Team.h */,
+				8CE7236A2490E02900719EFB /* Vector.cpp */,
+				8CE723582490E02700719EFB /* Vector.h */,
+				8CE7236D2490E02900719EFB /* venus.bmp */,
 			);
 			path = GC;
 			sourceTree = "<group>";
@@ -119,7 +235,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CE723382490DF1600719EFB /* main.cpp in Sources */,
+				8CE723782490E02900719EFB /* Point.cpp in Sources */,
+				8CE723822490E02900719EFB /* MilkshapeModel.cpp in Sources */,
+				8CE723772490E02900719EFB /* Particle.cpp in Sources */,
+				8CE7237B2490E02900719EFB /* Matrix.cpp in Sources */,
+				8CE7237C2490E02900719EFB /* Team.cpp in Sources */,
+				8CE7237E2490E02900719EFB /* AI.cpp in Sources */,
+				8CE7237A2490E02900719EFB /* Model.cpp in Sources */,
+				8CE723762490E02900719EFB /* ArcBall.cpp in Sources */,
+				8CE723802490E02900719EFB /* Vector.cpp in Sources */,
+				8CE723812490E02900719EFB /* Ship.cpp in Sources */,
+				8CE7237F2490E02900719EFB /* HUD.cpp in Sources */,
+				8CE7237D2490E02900719EFB /* Quaternion.cpp in Sources */,
+				8CE723752490E02900719EFB /* MainLoop.cpp in Sources */,
+				8CE723792490E02900719EFB /* Starsystem.cpp in Sources */,
+				8CE723742490E02900719EFB /* Render.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
